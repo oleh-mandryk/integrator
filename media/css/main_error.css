@@ -1,0 +1,144 @@
+html {
+    overflow-y:scroll;
+}
+
+body {
+    background: #262324 url("/media/img/main_bg.jpg") top repeat-x;
+    color: #dddcdc;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+    text-align: justify;
+}
+
+h1 {
+    border-bottom: 1px solid #e8e8e8;
+    font-family: Verdana, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 15px 0;
+    padding: 0 0 8px 0;
+}
+
+a:link, a:visited {
+    color: #b7bd19;
+    text-decoration: none;
+} 
+
+a:active, a:hover {
+    color: #b7bd19;
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 0 auto;
+	width: 960px;
+}
+
+/* header */
+#header {
+    background: #b7bd19 url("/media/img/header.jpg") top left no-repeat;
+    clear: both;
+    height: 245px;
+    margin-top: 75px;
+    width: 960px;
+}
+
+#header .intro {
+	color: #333;
+	font-size: 13px;
+    line-height: 20px;
+    padding: 130px 0px 0px 70px;
+    text-align: left;
+    width: 400px;
+}
+
+#header a {
+	color: #000;
+}
+/* end of header */
+
+/* content */
+#proContent {
+    background: url("/media/img/pro_content_bg.jpg") no-repeat;
+    display: block;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+    width: 940px;
+}
+
+#contentMain {
+    display: block;
+    width: 960px;
+}
+
+#contentMainTop {
+    background: url("/media/img/content_main_top_bg.jpg") top repeat-y;
+    display: block;
+    height: 7px;
+    margin-top: 10px;
+    width: 940px;
+}
+
+#contentMainCenter {
+	background: url("/media/img/content_main_bg.jpg") top repeat-y;
+    display: block;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    width: 940px;
+}
+
+#contentMainBottom {
+	background: url("/media/img/content_main_bottom_bg.jpg") top repeat-y;
+    display: block;
+    height: 7px;
+    margin-bottom: 10px;
+    width: 940px;
+}
+
+#contentTitle {
+	padding: 0 20px 0 20px;
+}
+
+#contentText {
+	padding: 0 30px 0 30px;
+}
+
+
+/* footer */
+#footer {
+    background: url("/media/img/footer_bg.jpg") top center no-repeat;
+	clear: both;
+	color: #999;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	width: 960px;
+}
+
+#footer a {
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */
+
+span.author {
+    color: #ffffff;
+    font-weight: bold;
+}

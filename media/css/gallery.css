@@ -1,0 +1,31 @@
+.gallery {
+	display: block;
+	margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.gallery table {
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    table-layout: fixed;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery table tbody td {
+    border-collapse: collapse;
+	border: none;
+    padding: 5px 5px 15px 5px;
+	vertical-align: top;
+}
+
+.gallery table tbody td img, .gallery img{
+    border: 1px solid #dddcdc;
+    margin: 0 20px 0 0;
+    padding: 5px;
+}
+
+.gallery table tbody td a:hover img, .gallery a:hover img   {
+	border-color: #b8bd19;
+}

@@ -1,0 +1,71 @@
+table {
+    border: 1px solid #999999;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    table-layout: auto;
+	vertical-align: top;
+	width: 100%;
+}
+
+table thead th {
+    background-color: #141414;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+	color: #FFFFFF;
+	table-layout: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tbody td {
+    border-collapse: collapse;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+    vertical-align: top;
+ }
+ 
+table tbody td img {
+    float: left;
+    margin: 0 5px 0 0;
+}
+	
+table thead th, table tbody td {
+    border-collapse: collapse;
+	padding: 5px;
+}
+
+table tbody tr.a {
+    background-color: #333333;
+	color: #CCCCCC;
+}
+
+table tbody tr.b {
+    background-color: #1E1E1E;
+	color: #CCCCCC;
+}
+
+.dayCurrent {
+    font-weight: bold;
+}
+
+table tbody tr.no_active, table tbody tr.no_active a  {
+    color: #CE0000;
+    font-weight: bold;
+}
+
+table.pidpys {
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    table-layout: auto;
+	vertical-align: top;
+	width: 100%;
+}
+
+table.pidpys tbody td {
+    border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+	vertical-align: top;
+ }
